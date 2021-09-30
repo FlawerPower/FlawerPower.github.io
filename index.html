@@ -1,18 +1,40 @@
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
-    <title>Hejter Norberta</title>
+    <title>Kalkulator wzrostu</title>
     <link rel="stylesheet" href="arkusz.css">
 
     
 </head>
 <body>
+   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
+<h2>Kalkulator Wzrostu</h2><br>
+<font color=white>
+<a>Wprowadz swój wzrost</a><br></font>
    <script>
+ 
+ function wzrost()
+{
+    var tak = document.forms['formularz'].tak.value;
+    
+    
+      alert("Twój Wzrost: "+tak+"cm");
+    }
+    
+    
+    
+    
+    
 
-       document.write("tak")
+
+
    </script>
 
+<form id="formularz" name="formularz">
+   <input type="text" name="tak">
+   <button onclick="javascript:wzrost();">Wynik</button>
+</form>
 </body>
 
 
